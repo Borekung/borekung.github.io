@@ -145,21 +145,21 @@
             <form id="form">
                 <div class="two">
                     <label>Full name
-                        <input required name="name" placeholder="Your name">
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
                     </label>
                     <label>Phone
-                        <input required name="phone" placeholder="+27 ...">
+                        <input type="text" id="phone" name="phone" placeholder="+27 ..." required>
                     </label>
                 </div>
                 <div class="two">
                     <label>Email
-                        <input required type="email" name="email" placeholder="you@example.com">
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
                     </label>
                     <label>Preferred date
-                        <input required type="date" name="date">
+                        <input type="date" id="date" name="date" required>
                     </label>
                 </div>
-                <label>Reason for visit<textarea name="message" rows="4" placeholder="Briefly describe how we can help">
+                <label>Reason for visit<textarea type="text" id="message" name="message" rows="4" placeholder="Briefly describe how we can help" required>
                     </textarea>
                 </label>
                 <button class="btn primary">Send Appointment Request</button>
