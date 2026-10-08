@@ -22,7 +22,7 @@ window.onload = function() {
         };
 
         // Send email using EmailJS
-        emailjs.send('service_7bc7j46', 'template_t6rrs6p', templateParams) // Replace with your actual service ID and template ID
+        emailjs.send('service_mdn5yuc', 'template_t6rrs6p', templateParams) // Replace with your actual service ID and template ID
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
             }, function(error) {
