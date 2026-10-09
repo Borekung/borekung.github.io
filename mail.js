@@ -7,11 +7,9 @@
 
 //Attach event listener to the form submission
 window.onload = function() {
-    //const form = document.querySelector('form');
-    const f = document.querySelector('form');
+    const form = document.querySelector('form');
 
-    //form.addEventListener('submit', function(event) {
-    f.addEventListener('submit', function(event) {
+    form.addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent page reload
 
         // Collect form data
